@@ -147,21 +147,19 @@ nav ul li a:hover:after{
 }
 
 .fcf-body {
-    margin: 0;
+    margin: auto;
     font-family: -apple-system, Arial, sans-serif;
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    /*background: url(Changes\ At\ Tumblr\,\ Again);*/
-    
     background-color: #fff;
     padding: 30px;
     padding-bottom: 10px;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
-    max-width: 100%;
+    max-width: 30%;
 }
 
 .fcf-form-group {
@@ -303,4 +301,10 @@ label.fcf-label {
 
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
     width: 100%;
+}
+
+.CU {
+    background: linear-gradient(120deg, #939597 20.69%, #656b6e 50.19%,#3d3f42 79.69%);
+}
+    background-size: cover;
 }

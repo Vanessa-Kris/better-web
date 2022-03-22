@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['Email'])) {
 
-    // EDIT THE 2 LINES BELOW AS REQUIRED
+    
     $email_to = "vanessaigwe1@gmail.com";
     $email_subject = "New form submissions";
 
@@ -41,7 +41,7 @@ if (isset($_POST['Email'])) {
     }
 
     if (strlen($message) < 2) {
-        $error_message .= 'The Message you entered do not appear to be valid.<br>';
+        $error_message .= 'The Message you entered does not appear to be valid.<br>';
     }
 
     if (strlen($error_message) > 0) {
